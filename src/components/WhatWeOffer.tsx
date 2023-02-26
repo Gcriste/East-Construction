@@ -3,60 +3,55 @@ import React from 'react';
 import config from '../config/index.json';
 import Divider from './Divider';
 
-const WhatWeOffer = () => {
+const About = () => {
   const { whatWeOffer } = config;
-  const [firstItem, secondItem] = whatWeOffer.items;
-
+  const { title, subtitle, description, items: featuresList } = whatWeOffer;
   return (
-    <section className={`bg-background py-8`} id="whatWeOffer">
-      <div className={`container max-w-5xl mx-auto m-8`}>
-        <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
-        >
-          {whatWeOffer.title.split(' ').map((word, index) => (
-            <span key={index} className={'text-primary'}>
-              {word}{' '}
-            </span>
-          ))}
-        </h1>
-        <Divider />
-        <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
-            <h3 className={`text-3xl text-primary font-bold leading-none mb-3`}>
-              {firstItem?.title}
-            </h3>
-            <p className={`text-primary`}>{firstItem?.description}</p>
-          </div>
-          <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={firstItem?.img}
-              alt={firstItem?.title}
-            />
-          </div>
+    <div className={`py-12 bg-background`} id="whatWeOffer">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="lg:text-center">
+          <h1
+             className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          >
+            {title}
+          </h1>
+          <Divider />
+          <p className="mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl">
+            {subtitle}
+          </p>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            {description}
+          </p>
         </div>
-        <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
-          <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={secondItem?.img}
-              alt={secondItem?.title}
-            />
-          </div>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
-            <div className={`align-middle`}>
-              <h3
-                className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
-              >
-                {secondItem?.title}
-              </h3>
-              <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
-            </div>
-          </div>
+
+        <div className="mt-10">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            {featuresList.map((feature) => (
+              <div key={feature.name} className="relative">
+                <dt>
+                  <div
+                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background text-tertiary border-primary border-4`}
+                  >
+                    <img
+                      className={`inline-block h-6 w-6 rounded-full`}
+                      src={feature.icon}
+                      alt={feature.name}
+                    />
+                  </div>
+                  <p className="ml-16 text-lg leading-6 font-medium text-primary">
+                    {feature.name}
+                  </p>
+                </dt>
+                <dd className="mt-2 ml-16 text-base text-gray-500">
+                  {feature.description}
+                </dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default WhatWeOffer;
+export default About;
