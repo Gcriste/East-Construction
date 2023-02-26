@@ -17,7 +17,7 @@ const Contact = () => {
         >
           {title}
         </h1>
-        <Divider />
+        <Divider color="bg-black" />
         
         <div
           className={`flex flex-col sm:flex-row justify-center mt-2  sm:my-4`}
