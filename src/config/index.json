@@ -1,7 +1,6 @@
 {
   "company": {
-    "name": "East Construction",
-    "logo": "/assets/images/logo.png"
+    "name": "East Construction"
   },
   "navigation": [
     {
@@ -9,7 +8,7 @@
       "href": "about"
     },
     {
-      "name": "What We Offer",
+      "name": "What we offer",
       "href": "whatWeOffer"
     },
     {
@@ -17,8 +16,8 @@
       "href": "pricing"
     },
     {
-      "name": "Reviews",
-      "href": "reviews"
+      "name": "Our work",
+      "href": "gallery"
     },
     {
       "name": "Contact",
@@ -31,15 +30,13 @@
   },
   "mainHero": {
     "title": "East Construction",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
     "primaryAction": {
       "text": "Call us",
-      "href": "#"
+      "href": "tel:+4108043799"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:eastconst@verizon.net"
     }
   },
   "about": {
@@ -47,13 +44,13 @@
     "items": [
       {
         "title": "About",
-        "description": "Since 1988 we have been delivering high quality shit. We offer high quality construction shit. We are the bomb. Talk about the different kinds of shit we have. blah blahablha more talking about stuff we do, how long we've been around blah blah. ",
-        "img": "/assets/images/product1.jpg"
+        "description": "East Construction has been in business since 1988. Specializing in home remodels and rennovations.",
+        "img": "/assets/images/kitchenfour.jpg"
       },
       {
         "title": "Business for 30 years",
-        "description": "Blah blah talk more about history of the company, partners, mentors whatever you'd like.",
-        "img": "/assets/images/product2.jpg"
+        "description": "Since 1988 we have helped hundreds of customers with custom construction.",
+        "img": "/assets/images/doorstwo.jpg"
       }
     ]
   },
@@ -61,26 +58,38 @@
     "title": "What we offer",
     "subtitle": "Custom construction to meet all needs ",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
     "items": [
+      { "name": "Interior barn doors" },
       {
-        "name": "Bathrooms",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "icon": "/assets/images/react.png"
+        "name": "Window replacement"
       },
       {
-        "name": "Flooring",
-        "description": "TDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Custom shutters"
       },
       {
-        "name": "Decks/patios",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Interior trim"
       },
       {
-        "name": "Stairs",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "icon": "/assets/images/ts.png"
+        "name": "Doors"
+      },
+      {
+        "name": "Molding"
+      },
+      {
+        "name": "Wainscoting"
+      },
+      {
+        "name": "Kitchen remodel"
+      },
+      {
+        "name": "Bathroom remodel"
+      },
+      {
+        "name": "Decks"
+      },
+      {
+        "name": "Finished basement"
       }
     ]
   },
@@ -156,8 +165,8 @@
     "title": "Contact us",
     "href": "#"
   },
-  "reviews": {
-    "title": "Reviews",
+  "gallery": {
+    "title": "Our work",
     "href": "#"
   }
 }

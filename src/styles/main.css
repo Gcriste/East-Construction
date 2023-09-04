@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+
+
+
+
 :root {
   --color-primary: white;
   --color-secondary: #a12c34;
@@ -10,12 +14,13 @@
   --color-black: black;
 }
 
-a { 
+/* a { 
   @apply text-red-700;
-}
+} */
 
 a:hover {
-  @apply border-b-2 border-red-700;
+  text-decoration: underline;
+  cursor:pointer;
 }
 
 

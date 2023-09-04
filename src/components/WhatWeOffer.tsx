@@ -16,38 +16,31 @@ const About = () => {
             {title}
           </h1>
           <Divider />
-          <p className="mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl">
+          <p className="mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl text-center">
             {subtitle}
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          {/* <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             {description}
-          </p>
+          </p> */}
         </div>
 
         <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <ul className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {featuresList.map((feature) => (
               <div key={feature.name} className="relative">
-                <dt>
-                  <div
+                <li>
+                  {/* <div
                     className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background text-tertiary border-primary border-4`}
                   >
-                    <img
-                      className={`inline-block h-6 w-6 rounded-full`}
-                      src={feature.icon}
-                      alt={feature.name}
-                    />
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-primary">
+                  </div> */}
+                  <p className="ml-16 text-xl leading-6 font-medium text-primary">
                     {feature.name}
                   </p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
-                  {feature.description}
-                </dd>
+                </li>
+              
               </div>
             ))}
-          </dl>
+          </ul>
         </div>
       </div>
     </div>

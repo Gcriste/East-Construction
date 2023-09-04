@@ -3,7 +3,7 @@ import React from 'react';
 // import About from '../components/About';
 import Analytics from '../components/Analytics';
 import Contact from '../components/Contact';
-import Reviews from '../components/Reviews';
+import Reviews from '../components/Gallery';
 import About from '../components/About';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
@@ -11,6 +11,7 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import WhatWeOffer from '../components/WhatWeOffer';
+import Gallery from '../components/Gallery';
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
             <MainHero />
           </div>
         </div>
-        <MainHeroImage />
+        {/* <MainHeroImage /> */}
       </div>
       {/* <Canvas /> */}
    
@@ -41,25 +42,18 @@ const App = () => {
           {/* <Canvas /> */}
         </>
       </LazyShow>
+      <LazyShow>
+        <Gallery />
+      </LazyShow>
      
       <LazyShow>
         <Pricing />
       </LazyShow>
-      <LazyShow>
-        <>
-          {/* <Canvas /> */}
-          <Reviews />
-        </>
-      </LazyShow>
-      <LazyShow>
-        <>
-          {/* <Canvas /> */}
-          <Contact />
-        </>
-      </LazyShow>
+
+  
     
 
-      <Analytics />
+
     </div>
   );
 };
