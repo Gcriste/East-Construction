@@ -87,7 +87,7 @@ const Pricing = () => {
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
               </p>
               <div className={`text-xl mt-12 leading-6 font-medium text-primary`}>
-                <a href="tel:+14108043799">Call: (410) 804-3799</a>
+                <a href="tel:+14108043799">Phone: (410) 804-3799</a>
                 {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
               </div>
               <div className={`mt-2 tracking-tight text-primary sm:text-2xl`}>
