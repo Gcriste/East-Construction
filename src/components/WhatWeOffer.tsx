@@ -16,7 +16,7 @@ const About = () => {
             {title}
           </h1>
           <Divider />
-          <p className="mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl text-center">
+          <p className="mt-16 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl text-center">
             {subtitle}
           </p>
           {/* <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">

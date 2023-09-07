@@ -12,16 +12,12 @@
       "href": "whatWeOffer"
     },
     {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
       "name": "Our work",
       "href": "gallery"
     },
     {
-      "name": "Contact",
-      "href": "contact"
+      "name": "Pricing",
+      "href": "pricing"
     }
   ],
   "callToAction": {

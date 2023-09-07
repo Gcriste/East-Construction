@@ -21,7 +21,7 @@ const About = () => {
         </h1>
         <Divider />
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-5/6 p-6 mt-2`}>
             <h3 className={`text-3xl text-primary font-bold leading-none mb-3`}>
               {firstItem?.title}
             </h3>

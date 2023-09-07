@@ -23,7 +23,7 @@ const Pricing = () => {
           ></div>
         </div> */}
         <div
-          className={`flex flex-col sm:flex-row justify-center mt-2  sm:my-4`}
+          className={`flex flex-col sm:flex-row justify-center mt-2  `}
         >
           {/* <div
             className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4`}
@@ -56,10 +56,10 @@ const Pricing = () => {
               </div>
             </div>
           </div> */}
-          <div
-            className={`flex flex-col  mx-auto lg:mx-0 rounded-lg bg-background mt-4 sm:-mt-6 shadow-lg z-10`}
-          >
-            <div
+          {/* <div
+            className={`flex flex-col  mx-auto lg:mx-0 rounded-lg bg-background  shadow-lg z-10`}
+          > */}
+            {/* <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
               {/* <div className={`w-full p-8 text-3xl font-bold text-center`}>
@@ -78,7 +78,7 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul> */}
-            </div>
+            {/* </div> */} 
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
@@ -96,7 +96,7 @@ const Pricing = () => {
               </div>
             
             </div>
-          </div>
+          {/* </div> */}
           {/* <div
             className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4`}
           >

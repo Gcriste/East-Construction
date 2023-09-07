@@ -46,10 +46,10 @@ const Reviews = () => {
         </h1>
         <Divider />
         
-     
+     <div className='mt-20'>
        
        <ImageGallery items={images} infinite showFullscreenButton showPlayButton showBullets showNav />
-     
+       </div>
         
       </div>
     </section>
