@@ -5,7 +5,7 @@ import Divider from './Divider';
 
 const About = () => {
   const { whatWeOffer } = config;
-  const { title, subtitle, description, items: featuresList } = whatWeOffer;
+  const { title, subtitle,  items: featuresList } = whatWeOffer;
   return (
     <div className={`py-12 bg-background`} id="whatWeOffer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
