@@ -2,9 +2,9 @@ import React from 'react';
 
 type DividerProps = {
   width?: string;
-  color?: string
+  color?: string;
 };
-const Divider = ({ width = 'w-64', color="bg-primary" }: DividerProps) => {
+const Divider = ({ width = 'w-64', color = 'bg-primary' }: DividerProps) => {
   return (
     <div className={`w-full mb-4`}>
       <div

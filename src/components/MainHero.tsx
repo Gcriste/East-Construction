@@ -4,7 +4,7 @@ import config from '../config/index.json';
 
 const MainHero = () => {
   const { mainHero } = config;
-  console.log('main here', mainHero);
+
   return (
     <main className="main-hero mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="sm:text-center lg:text-left lg:px-7">

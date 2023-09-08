@@ -21,9 +21,7 @@ const Pricing = () => {
             className={`h-1 mx-auto bg-primary w-64 opacity-25 my-0 py-0 rounded-t`}
           ></div>
         </div> */}
-        <div
-          className={`flex flex-col sm:flex-row justify-center mt-2  `}
-        >
+        <div className={`flex flex-col sm:flex-row justify-center mt-2  `}>
           {/* <div
             className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4`}
           >
@@ -58,16 +56,16 @@ const Pricing = () => {
           {/* <div
             className={`flex flex-col  mx-auto lg:mx-0 rounded-lg bg-background  shadow-lg z-10`}
           > */}
-            {/* <div
+          {/* <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
               {/* <div className={`w-full p-8 text-3xl font-bold text-center`}>
                 {secondPlan?.name}
               </div> */}
-              {/* <div
+          {/* <div
                 className={`h-1 w-full bg-primary my-0 py-0 rounded-t`}
               ></div> */}
-              {/* <ul className={`w-full text-center text-base font-bold`}>
+          {/* <ul className={`w-full text-center text-base font-bold`}>
                 {secondPlan?.features.map((feature) => (
                   <li
                     className={`border-b py-4`}
@@ -77,24 +75,28 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul> */}
-            {/* </div> */} 
-            <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
+          {/* </div> */}
+          <div
+            className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
+          >
+            <p
+              className={`mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl`}
             >
-              <p className={`mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl`}>
-                Please call or email us today to get a free quote!
-                {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-              </p>
-              <div className={`text-xl mt-12 leading-6 font-medium text-primary`}>
-                <a href="tel:+14108043799">Phone: (410) 804-3799</a>
-                {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-              </div>
-              <div className={`mt-2 tracking-tight text-primary sm:text-2xl`}>
-              <a href="mailto:eastconst@verizon.net"> Email: eastconst@verizon.net</a>
-                {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
-              </div>
-            
+              Please call or email us today to get a free quote!
+              {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
+            </p>
+            <div className={`text-xl mt-12 leading-6 font-medium text-primary`}>
+              <a href="tel:+14108043799">Phone: (410) 804-3799</a>
+              {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
             </div>
+            <div className={`mt-2 tracking-tight text-primary sm:text-2xl`}>
+              <a href="mailto:eastconst@verizon.net">
+                {' '}
+                Email: eastconst@verizon.net
+              </a>
+              {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
+            </div>
+          </div>
           {/* </div> */}
           {/* <div
             className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4`}
