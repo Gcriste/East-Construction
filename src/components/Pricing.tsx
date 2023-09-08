@@ -80,16 +80,16 @@ const Pricing = () => {
             className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
           >
             <p
-              className={`mt-2 text-1xl leading-8 font-extrabold tracking-tight text-primary sm:text-2xl`}
+              className={`mt-2 text-xl leading-8 font-bold tracking-tight text-primary`}
             >
               Please call or email us today to get a free quote!
               {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
             </p>
-            <div className={`text-xl mt-12 leading-6 font-medium text-primary`}>
+            <div className={`text-lg mt-12 leading-6 font-medium text-primary`}>
               <a href="tel:+14108043799">Phone: (410) 804-3799</a>
               {/* <span className={`text-base`}> {secondPlan?.priceDetails}</span> */}
             </div>
-            <div className={`mt-2 tracking-tight text-primary sm:text-2xl`}>
+            <div className={`text-lg  mt-2 leading-6 font-medium text-primary`}>
               <a href="mailto:eastconst@verizon.net">
                 {' '}
                 Email: eastconst@verizon.net
